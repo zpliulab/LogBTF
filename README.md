@@ -1,4 +1,4 @@
-# [LogBTFs (Embedding logistic regression into Boolean threshold functions to reconstruct Boolean threshold network)](https://github.com/zpliulab/logBTFs)
+# [LogBTFs (Embedding logistic regression into Boolean threshold functions to reconstruct Boolean threshold networks)](https://github.com/zpliulab/logBTFs)
 
 ![Screenshot](Data/framework.jpg)
 
