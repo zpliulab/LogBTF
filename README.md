@@ -7,7 +7,7 @@ In this work, an **embedded Boolean threshold network model by aggregating logis
 
 ## LogBTFs
 <!--START_SECTION:news-->
-* ** LogBTFs **: A **embedded Boolean threshold network model (LogBTFs)** is proposed to infer **gene regulatory networks (GRNs)**. 
+* **LogBTFs**: A **embedded Boolean threshold network model (LogBTFs)** is proposed to infer **gene regulatory networks (GRNs)**. 
 * In the comparison study, we also proved the proposed **LogBTFs method** results in better inference performance than one regression-based method **SINCERITIES**, two miscellaneous methods: **GENIE3** and **TIGRESS**, two correlation-based methods: **ARACNE** and **CLR**.
 * If you have any questions about **LogBTFs**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
 <!--END_SECTION:news-->
