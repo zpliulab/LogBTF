@@ -1,0 +1,7 @@
+Method,Directed,SIGN,Inference basis,Dynamic accuracy,Topological accuracy,Update rules?,Gene status (ON/OFF),# of regulatory genes,# of regulatory relationships,Computational complexity
+GENIE3,Yes,No,Weights,NO,threshold,NO,NO,NO,NO,"O(TKPNlogN),T=1000,k=sqrt(P)"
+TIGRESS,Yes,No,Weights,NO,threshold,NO,NO,NO,NO,"O(TKPN),T=1000,k=# of regulatory?genes"
+ARACNE,No,No,Correlation coefficient,NO,threshold,NO,NO,NO,NO,O(P^3)
+CLR,No,No,Correlation coefficient,NO,threshold,NO,NO,NO,NO,O(P^2)
+SINCERITIES,Yes,Yes,Regression coefficients,NO,Yes,NO,NO,Yes,Yes,
+LogBTFs,Yes,Yes,Regression coefficients,Yes,Yes,Yes,Yes,Yes,Yes,
