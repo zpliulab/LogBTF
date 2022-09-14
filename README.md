@@ -14,15 +14,15 @@ In this work, an **embedded Boolean threshold network model by aggregating logis
 
 
 ## Citation
-Li, Lingyu, et al. "**LogBTFs: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [XXX](https://www.journals.elsevier.com/expert-systems-with-applications).  
+Li, Lingyu, et al. "**LogBTFs: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [XXX](https://www.journals.elsevier.com/expert-systems-with-applications). 
 
 
 ## Data
 <!--START_SECTION:news-->
-* In the **Data** file, we give some necessary input/output files by the **R/Matlab/Python** codes. The subfile **DREAM3_RealData2** is the Matsumoto RNA-seq data, and the subfile **DREAM3_RealData16** is the Specific hHEP scRNA-seq data. 
+* **Supplementary Materials** file present the necessary **Additional files** contained in our work (**Table S1 and Table S2**).
+* **Data** file give some necessary input/output files by the **R/Matlab/Python** codes. The subfile **DREAM3_RealData2** is the Matsumoto RNA-seq data, and the subfile **DREAM3_RealData16** is the Specific hHEP scRNA-seq data.
 * Some of these input files only give the first few lines, limited by upload file size, but this does not affect the results of our work (**LogBTFs**).
-* In the **Cytoscape** file, we give the inferred LMPP gene regulatory network. 
-* In the **Supplementary Materials** file, we present the necessary **Additional files** contained in our work (**Table S1 and Table S2**).
+* **Cytoscape** file, we give the inferred LMPP gene regulatory network. 
 <!--END_SECTION:news-->
 
 
@@ -45,8 +45,8 @@ The **serial number (1), (2), ..., (17)** represents the order in which the prog
 * (13)  dataDREAMGlmSINCERITIESadj_Ecoli.R  --  SINCERITIES method on DREAM3 dataset (Ecoli1 and Ecoli2).
 * (14) dataDREAMGlmSINCERITIESadj_Yeast.R -- SINCERITIES method on DREAM3 dataset (Yeast1 and Yeast2).
 * (15) Box_Group.R -- Visualize results of the DREAM3 dataset.
-* (16) dataDREAMGlmRegAdjRealdata10fold.R, dataDREAMSINCERITIESRealdata(10fold).R, dataDREAMCLRRealdata.R, dataDREAMGENIE3Realdata.R, dataDREAMTARACNERealdata.R, dataDREAMTREGRESSRealdata.R  -- Six method on real dataset (File Data2).
-* (17) LMPPGlmPenalty0803.R  -- LogBTFs method on LMPP dataset, compare with SINCERITIES
+* (16) dataDREAMGlmRegAdjRealdata10fold.R, dataDREAMSINCERITIESRealdata(10fold).R, dataDREAMCLRRealdata.R, dataDREAMGENIE3Realdata.R, dataDREAMTARACNERealdata.R, dataDREAMTREGRESSRealdata.R  -- Six method on real dataset (Files Data2 and Data16).
+* (17) LMPPGlmPenalty0803.R  -- LogBTFs method on LMPP dataset, compare with SINCERITIES.
 <!--END_SECTION:news-->
 
 
