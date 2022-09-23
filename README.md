@@ -14,7 +14,7 @@ In this work, an **embedded Boolean threshold network model by aggregating logis
 
 
 ## Citation
-Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to Briefings in Bioinformatics (https://academic.oup.com/bib). 
+Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [Briefings in Bioinformatics](https://academic.oup.com/bib). 
 
 
 ## Data
