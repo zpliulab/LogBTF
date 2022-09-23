@@ -1,20 +1,20 @@
-# [LogBTFs (Embedding logistic regression into Boolean threshold functions to reconstruct Boolean threshold networks model)](https://github.com/zpliulab/logBTFs)
+# [LogBTF (Embedding logistic regression into Boolean threshold function to reconstruct Boolean threshold network model)](https://github.com/zpliulab/logBTF)
 
 ![Screenshot](Data/framework.jpg)
 
-In this work, an **embedded Boolean threshold network model by aggregating logistic regression with Boolean threshold functions (LogBTFs)** for inferring gene regulatory networks from single-cell gene expression data was proposed. 
+In this work, an **embedded Boolean threshold network model by aggregating logistic regression with Boolean threshold function (LogBTF)** for inferring gene regulatory networks from single-cell gene expression data was proposed. 
 
 
 ## LogBTFs
 <!--START_SECTION:news-->
-* **LogBTFs**: A **embedded Boolean threshold network model (LogBTFs)** is proposed to infer **gene regulatory networks (GRNs)**. 
-* In the comparison study, we also proved the proposed **LogBTFs method** results in better inference performance than one regression-based method **SINCERITIES**, two miscellaneous methods: **GENIE3** and **TIGRESS**, two correlation-based methods: **ARACNE** and **CLR**.
-* If you have any questions about **LogBTFs**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
+* **LogBTF**: A **embedded Boolean threshold network model (LogBTF)** is proposed to infer **gene regulatory networks (GRNs)**. 
+* In the comparison study, we also proved the proposed **LogBTF method** results in better inference performance than one regression-based method **SINCERITIES**, two miscellaneous methods: **GENIE3** and **TIGRESS**, two correlation-based methods: **ARACNE** and **CLR**.
+* If you have any questions about **LogBTF**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
 <!--END_SECTION:news-->
 
 
 ## Citation
-Li, Lingyu, et al. "**LogBTFs: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [XXX](https://www.journals.elsevier.com/expert-systems-with-applications). 
+Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to Briefings in Bioinformatics (https://academic.oup.com/bib). 
 
 
 ## Data
@@ -62,5 +62,5 @@ The **serial number (1), (2), ..., (17)** represents the order in which the prog
 <!--END_SECTION:news-->
 
 
-## LogBTFs (2022), Zhi-Ping Liu all rights reserved
+## LogBTF (2022), Zhi-Ping Liu all rights reserved
 This program package is supported by the copyright owners and coders "as is" and without warranty of any kind, express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. In no event shall the copyright owner or contributor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, without limitation, procurement of substitute goods or services; loss of use, data, or profits; or business interruption), regardless of the theory of liability, whether in contract, strict liability or tort (including negligence or otherwise) for any use of the software, even if advised of the possibility of such damages.
