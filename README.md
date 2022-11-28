@@ -23,7 +23,7 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 * **Data** file give some necessary input/output files by the **R/Matlab/Python** codes. 
 <!--* The subfile **DREAM3_RealData2** is the Matsumoto RNA-seq data, and the subfile **DREAM3_RealData16** is the Specific hHEP scRNA-seq data.-->
 * Some input files only give the **first few lines**, limited by upload file size, but this does not affect the results.
-* **Supplementary Materials** file present the necessary **Additional files** contained in our work.
+<!--* **Supplementary Materials** file present the necessary **Additional files** contained in our work.-->
 * **Cytoscape** file give the inferred LMPP gene regulatory network. 
 <!--END_SECTION:news-->
 
