@@ -137,7 +137,9 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
 * ``All other codes``  --  They serve the main program GRISLIscmain. 
 * [GRISLI](https://github.com/PCAubin/GRISLI) (v1.0.1). 
     ```ruby
-    GRISLI is written in Matlab, it uses the SPAMS toolbox ([http://spams-devel.gforge.inria.fr/](http://thoth.inrialpes.fr/people/mairal/spams/)) to solve the lasso problem. Therefore one may need to install the .mex files of SPAMS before using GRISLI (a spams-matlab-v2.6 folder is provided).    ```
+    GRISLI is written in Matlab, 
+    it uses the SPAMS toolbox ([http://spams-devel.gforge.inria.fr/](http://thoth.inrialpes.fr/people/mairal/spams/)) to solve the lasso problem. 
+    Therefore one may need to install the .mex files of SPAMS before using GRISLI (a spams-matlab-v2.6 folder is provided).    ```
 <!--END_SECTION:news-->
 
 
