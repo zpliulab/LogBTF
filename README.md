@@ -37,19 +37,7 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 * [ppcor](https://cran.r-project.org/web/packages/ppcor/index.html) (v1.1). Calculating partial and semi-partial (part) correlations in SINCERITIES method.
 * [tigress](https://cran.r-project.org/web/packages/tigris/index.html) (v1.6.1). For the implication of TREGRESS method.
 * [minet](http://www.bioconductor.org/packages/release/bioc/html/minet.html) (v4.2). For the implication of ARACNE and CLR methods.
-<!--    ```ruby-->
-<!--    if (!require("BiocManager", quietly = TRUE))-->
-<!--    install.packages("BiocManager")-->
-<!---->
-<!--    BiocManager::install("minet")-->
-<!--    ```-->
 * [GENIE3](https://bioconductor.org/packages/release/bioc/html/GENIE3.html) (v4.2). For the implication of GENIE3 method.
-<!--    ```ruby-->
-<!--    if (!require("BiocManager", quietly = TRUE))-->
-<!--    install.packages("BiocManager")-->
-<!---->
-<!--    BiocManager::install("GENIE3")-->
-<!--    ```-->
 * [randomForest](https://CRAN.R-project.org/package=randomForest) (v4.7-1.1). For the implication of GENIE3 method.
 * [pROC](https://cran.r-project.org/web/packages/randomForest/index.html) (v1.18.0). For the display and analyze ROC curves.
 * [dplyr](https://cran.r-project.org/web/packages/dtplyr/index.html) (v7.3-58.1). Provides a data.table backend.
