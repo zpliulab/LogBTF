@@ -30,8 +30,6 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 ## R packages
 * [R.utils](https://cran.r-project.org/web/packages/R.utils/index.html) (v2.12.2). For various programming utilities.
 * [BiTrinA](https://cran.r-project.org/web/packages/xlsx/index.html) (v0.6.5). Read/write/format Excel 2007 and Excel 97/2000/XP/2003 file formats.
-* [caret](https://cran.r-project.org/web/packages/caret/index.html) (v6.0-93). Misc functions for training.
-* [Matrix](https://cran.r-project.org/web/packages/Matrix/index.html) (v1.5-3). For the rich hierarchy of matrix classes.
 * [BiTrinA](https://cran.r-project.org/web/packages/BiTrinA/index.html) (v1.3). For the binarization of simulated bulk gene expression data.
 * [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html) (v4.1-6). To conduct regularized generalized Linear models (Elastic net penalty).
 * [ppcor](https://cran.r-project.org/web/packages/ppcor/index.html) (v1.1). Calculating partial and semi-partial (part) correlations in SINCERITIES method.
@@ -39,13 +37,16 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 * [minet](http://www.bioconductor.org/packages/release/bioc/html/minet.html) (v4.2). For the implication of ARACNE and CLR methods.
 * [GENIE3](https://bioconductor.org/packages/release/bioc/html/GENIE3.html) (v4.2). For the implication of GENIE3 method.
 * [randomForest](https://CRAN.R-project.org/package=randomForest) (v4.7-1.1). For the implication of GENIE3 method.
+* [caret](https://cran.r-project.org/web/packages/caret/index.html) (v6.0-93). Misc functions for training.
+* [Matrix](https://cran.r-project.org/web/packages/Matrix/index.html) (v1.5-3). For the rich hierarchy of matrix classes.
 * [pROC](https://cran.r-project.org/web/packages/randomForest/index.html) (v1.18.0). For the display and analyze ROC curves.
-* [dplyr](https://cran.r-project.org/web/packages/dtplyr/index.html) (v7.3-58.1). Provides a data.table backend.
-* [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html) (v3.4.0). Create elegant data visualisations.
-* [stringr](https://cran.r-project.org/web/packages/stringr/index.html) (v4.1). Use set of wrappers around the fantastic 'stringi' package.
-* [ggprism](https://cran.rstudio.com/web/packages/ggprism/index.html) (v1.0.4). Used to customise ggplots.
-* [tidyverse](https://cran.r-project.org/web/packages/tidyverse/index.html) (v1.3.2). share common data representations.
-* [reshape2](https://cran.r-project.org/web/packages/reshape2/index.html) (v1.4.4). Flexibly restructure and aggregate data.
+<!--* [dplyr](https://cran.r-project.org/web/packages/dtplyr/index.html) (v7.3-58.1). Provides a data.table backend.-->
+<!--* [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html) (v3.4.0). Create elegant data visualisations.-->
+<!--* [stringr](https://cran.r-project.org/web/packages/stringr/index.html) (v4.1). Use set of wrappers around the fantastic 'stringi' package.-->
+<!--* [ggprism](https://cran.rstudio.com/web/packages/ggprism/index.html) (v1.0.4). Used to customise ggplots.-->
+<!--* [tidyverse](https://cran.r-project.org/web/packages/tidyverse/index.html) (v1.3.2). Share common data representations.-->
+<!--* [reshape2](https://cran.r-project.org/web/packages/reshape2/index.html) (v1.4.4). Flexibly restructure and aggregate data.-->
+
 
 ## R codes
 The **serial number (1), (2), ..., (13)** represents the order in which the program runs in our work. All experiments are conducted on a workstation with two Xeon Gold 6226R CPUs and 256G of RAM
