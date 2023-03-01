@@ -1,6 +1,6 @@
 # [LogBTF: Gene regulatory network inference using Boolean threshold network model from single-cell gene expression data](https://github.com/zpliulab/logBTF)
 
-![Screenshot](Data/framework.jpg)
+![Screenshot](Data/framework.png)
 
 This work proposes an **embedded Boolean threshold network model by aggregating logistic regression with Boolean threshold function (LogBTF)** to infer gene regulatory networks from single-cell gene expression data. 
 
