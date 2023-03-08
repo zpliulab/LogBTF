@@ -8,14 +8,14 @@ This work proposes an **embedded Boolean threshold network model by aggregating 
 ## LogBTF
 <!--START_SECTION:news-->
 <!--* **LogBTF**: A **embedded Boolean threshold network model (LogBTF)** is proposed to infer **gene regulatory networks (GRNs)**. -->
-* **Comparison**: the proposed method **LogBTF** results in better inference performance than one regression-based method **SINCERITIES**, two ordinary differential equation-based methods **GRISLI** and **SCODE**, two miscellaneous methods **GENIE3** and **TIGRESS**, two correlation-based methods **ARACNE** and **CLR**.
+* **Comparison**: the proposed method **LogBTF** results in better inference performance than one regression-based method **SINCERITIES** and **GNIPLR**, two ordinary differential equation-based methods **GRISLI** and **SCODE**, two miscellaneous methods **GENIE3** and **TIGRESS**, two correlation-based methods **ARACNE** and **CLR**.
 * **Reminder**: Before running all programs, you need to **modify the path of the folder** where the corresponding input or output data or function is located.
 * If you have any questions about **LogBTF**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
 <!--END_SECTION:news-->
 
 
 ## Citation
-Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [Bioinformatics](https://academic.oup.com/bioinformatics). 
+Lingyu Li, Liangjie Sun, Guangyi Chen, Chi-Wing Wong, Wai-Ki Ching*, Zhi-Ping Liu*. "**LogBTF: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [Bioinformatics](https://academic.oup.com/bioinformatics). 
 
 
 ## Data
@@ -26,6 +26,7 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 <!--* **Supplementary Materials** file present the necessary **Additional files** contained in our work.-->
 * **Cytoscape** file give the inferred LMPP gene regulatory network. 
 <!--END_SECTION:news-->
+
 
 ## R packages
 * [R.utils](https://cran.r-project.org/web/packages/R.utils/index.html) (v2.12.2). For various programming utilities.
@@ -50,6 +51,7 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 
 ## R codes
 The **serial number (1), (2), ..., (13)** represents the order in which the program runs in our work. All experiments are conducted on a workstation with two Xeon Gold 6226R CPUs and 256G of RAM
+
 
 <!--START_SECTION:news-->
 * (1) ``PermanceFunction.R``  --  The function to evaluate inferred network performance.
@@ -113,9 +115,34 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
     pip install pandas
     import pandas as pd
     ```
+    
 ## Python codes
 <!--START_SECTION:news-->
 * ``mydataexam.py`` -- The generated data for the next time point of Artificial data.
+* [GNIPLR](https://github.com/zyllluck/GNIPLR)
+* [DeepSEM](https://github.com/HantaoShu/DeepSEM)
+    
+    
+## Python codes
+<!--START_SECTION:news-->
+* ``mydataexam.py`` -- The generated data for the next time point of Artificial data.
+* ``GNIPLR`` -- The GNIPLR method.
+    ```ruby
+    Use the script 'Python GNIPLR_SERGIO.py' to run GNIPLR method.
+    ```
+* ``DeepSEM`` -- The DeepSEM method.
+    ```ruby
+    Run DeepSEM method on scRNA-seq or Bulk RNA-seq data.
+    Use the script: 
+        'python main.py --task celltype_GRN --data_file DREAM3_data/scData/scData_Ecoli1_Node10.csv --net_file DREAM3_data/label/Size10/label_Ecoli1_Node10.csv --setting new --alpha 0.1 --beta 0.01 --n_epochs 10  --save_name out'
+        'python main.py --task celltype_GRN --data_file DREAM3_data/bulkData/bulkData_Ecoli1_Node10.csv --net_file DREAM3_data/label/Size10/label_Ecoli1_Node10.csv --setting new --alpha 0.1 --beta 0.01 --n_epochs 10  --save_name out'
+    ```
+    ```ruby
+    Run DeepSEM method on scRNA-seq data by SERGIO simulator.
+    Use the script: 
+        'python main.py --task celltype_GRN --data_file SERGIO_data/Data_count_matrix100_1_10.csv --net_file SERGIO_data/Interaction_cID_4SIGNlistDeep.csv --setting new --alpha 0.1 --beta 0.01 --n_epochs 10  --save_name out'
+         'python main.py --task celltype_GRN --data_file SERGIO_data/Data_count_matrix20_1_10.csv --net_file SERGIO_data/Interaction_cID_4SIGNlistDeep_20node.csv --setting new --alpha 0.1 --beta 0.01 --n_epochs 10  --save_name out'
+    ```
 <!--END_SECTION:news-->
 
 
@@ -137,3 +164,6 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
 
 ## LogBTF (2023), Zhi-Ping Liu all rights reserved
 This program package is supported by the copyright owners and coders "as is" and without warranty of any kind, express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. In no event shall the copyright owner or contributor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, without limitation, procurement of substitute goods or services; loss of use, data, or profits; or business interruption), regardless of the theory of liability, whether in contract, strict liability or tort (including negligence or otherwise) for any use of the software, even if advised of the possibility of such damages.
+
+
+
