@@ -74,7 +74,9 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
     ```ruby
     LogBTF method, compare with SINCERITIES 'LMPPGlmPenalty0803SINCERITIES.R'
     ```
- compare with SINCERITIES .
+* (14*) ``Box_GroupPlotSimpleBioRevised.R``  --  Newly visualize results of simulated scRNA-seq data (**Fig.3, Fig.4**) based on the input 'DREAM3scResult_BioRevised.xlsx'
+* (15*) ``Bar_BoublePlot_BioRevised.R``  --  Newly visualize results of real data (**Fig.6**) based on the input 'RealscResult_BioRevised.csv.xlsx'
+* (16*) ``Box_GroupPlotSimple_SERGIO.R``  --  Newly visualize results of SERGIO scRNA-seq data (**Fig.5**) based on the input 'SERGIOSimu_scResult_Revise6583CleanSCODE.xlsx'
 <!--END_SECTION:news-->
 
 
@@ -164,6 +166,5 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
 
 ## LogBTF (2023), Zhi-Ping Liu all rights reserved
 This program package is supported by the copyright owners and coders "as is" and without warranty of any kind, express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. In no event shall the copyright owner or contributor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, without limitation, procurement of substitute goods or services; loss of use, data, or profits; or business interruption), regardless of the theory of liability, whether in contract, strict liability or tort (including negligence or otherwise) for any use of the software, even if advised of the possibility of such damages.
-
 
 
