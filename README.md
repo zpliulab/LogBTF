@@ -15,7 +15,7 @@ This work proposes an **embedded Boolean threshold network model by aggregating 
 
 
 ## Citation
-Lingyu Li, Liangjie Sun, Guangyi Chen, Chi-Wing Wong, Wai-Ki Ching*, Zhi-Ping Liu*. "**LogBTF: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [Bioinformatics](https://academic.oup.com/bioinformatics). 
+Lingyu Li, Liangjie Sun, Guangyi Chen, Chi-Wing Wong, Wai-Ki Ching, Zhi-Ping Liu. "**LogBTF: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." 2023, [Bioinformatics](https://academic.oup.com/bioinformatics). [LogBTF paper website](https://doi.org/10.1093/bioinformatics/btad256)
 
 
 ## Data
